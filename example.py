@@ -2,5 +2,8 @@
 
 name = "James"
 age = 19
+weight = '79' #Kilograms
 
-print("My name is " + name + " I am " + str(age) + " years old")
+age_weight_ratio = int(weight)/age
+
+print(age_weight_ratio)
